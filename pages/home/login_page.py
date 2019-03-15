@@ -3,6 +3,7 @@ from base.selenium_driver import SeleniumDriver
 
 class LoginPage(SeleniumDriver):
 
+#posting this code to git repo so Shweta can refer it
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
